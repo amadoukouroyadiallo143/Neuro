@@ -69,3 +69,10 @@ include_trailing_comma = true
 testpaths = ["tests"]
 python_files = "test_*.py"
 addopts = "-v --cov=src --cov-report=term-missing"
+
+[tool.poetry.dependencies]
+flash-attn = { version = "^2.3.3", extras = ["cu122"] }
+hyena = "^0.1.6"
+s3pool = "^0.4.2"
+coremltools = "^7.0"
+mobile-vit = { git = "https://github.com/apple/ml-mobilevit.git", rev = "main" }
