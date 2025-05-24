@@ -1,0 +1,21 @@
+# Environnement virtuel
+.venv/
+env/
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuration locale
+*.env
+*.log
+*.DS_Store
+
+# Dossiers temporaires
+*.egg-info/
+build/
+dist/
+.cache/
+.ipynb_checkpoints/
