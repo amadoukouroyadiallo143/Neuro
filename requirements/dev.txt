@@ -1,0 +1,20 @@
+# Development dependencies
+# Please use: pip install -e .[dev]
+
+# Testing
+pytest>=6.0
+pytest-cov>=2.0
+
+# Code quality
+black>=21.12b0
+isort>=5.10.0
+mypy>=0.910
+flake8>=4.0.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0
+
+# Development tools
+jupyter>=1.0.0
+ipykernel>=6.0.0

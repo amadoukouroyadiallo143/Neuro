@@ -1,0 +1,10 @@
+# Dependencies are now managed in pyproject.toml
+# This file is kept for backward compatibility
+# Please use: pip install -e .[dev,gpu]  # or other optional dependencies
+
+# Core dependencies
+numpy>=1.21.0
+scipy>=1.7.0
+torch>=1.10.0
+transformers>=4.15.0
+datasets>=1.18.0
